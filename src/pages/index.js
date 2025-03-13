@@ -52,7 +52,9 @@ const IndexPage = ({data}) => {
         <div className="woning__row">
             <article className="woning__card">
               <div className="woning__card-image">
-                <img src="https://thermohouse.co.uk/wp-content/uploads/2019/04/hero-image.jpg" alt="Woning" className="woning__card-img"></img>
+                <Link to="/">
+                  <img src="https://thermohouse.co.uk/wp-content/uploads/2019/04/hero-image.jpg" alt="Woning" className="woning__card-img"></img>
+                </Link>
                 <p className="woning__card-tag">Kijk dag 16/03</p>
               </div>
               <div className="woning__card-top">
@@ -76,7 +78,9 @@ const IndexPage = ({data}) => {
             </article>
             <article className="woning__card">
               <div className="woning__card-image">
-                <img src="https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg" alt="Woning" className="woning__card-img"></img>
+                <Link to="/">
+                  <img src="https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg" alt="Woning" className="woning__card-img"></img>
+                </Link>
                 <p className="woning__card-tag">Kijk dag 16/03</p>
               </div>
               <div className="woning__card-top">
@@ -100,7 +104,9 @@ const IndexPage = ({data}) => {
             </article>
             <article className="woning__card">
               <div className="woning__card-image">
-                <img src="https://www.livehome3d.com/assets/img/articles/design-house/how-to-design-a-house.jpg" alt="Woning" className="woning__card-img"></img>
+                <Link to="/">
+                  <img src="https://www.livehome3d.com/assets/img/articles/design-house/how-to-design-a-house.jpg" alt="Woning" className="woning__card-img"></img>
+                </Link>
                 <p className="woning__card-tag">Kijk dag 16/03</p>
               </div>
               <div className="woning__card-top">
